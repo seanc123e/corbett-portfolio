@@ -1,0 +1,27 @@
+.navbar {
+    background-color: #A0B2A6;
+}
+
+.navbar a {
+    color: #012622;
+}
+
+ /*hero */
+
+@media (max-width: 767px) {
+    #profile-text {
+        width: 100%;
+    }
+}
+
+/* Portfolio */
+
+/* .projects .projects-wrapper .projects-img {
+    max-width: 300px;
+    aspect-ratio: 75%;
+    object-fit: cover;
+} */
+
+.portfolio-text:hover {
+    text-decoration: underline #012622;
+}
