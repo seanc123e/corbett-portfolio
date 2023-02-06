@@ -6,6 +6,18 @@
     color: #012622;
 }
 
+.navbar a:hover {
+    background-color: #EABDC7;
+    transition: .5s;
+}
+
+h1, h3, h5, p, label {
+    color: #012622;
+}
+
+body {
+    background-color: #F7F7F7;
+}
  /*hero */
 
 @media (max-width: 767px) {
@@ -14,14 +26,65 @@
     }
 }
 
+#hero a {
+    color: #012622;
+}
+
+#hero a:hover {
+    color: #A0B2A6;
+}
+
 /* Portfolio */
 
-/* .projects .projects-wrapper .projects-img {
-    max-width: 300px;
-    aspect-ratio: 75%;
+ .projects-wrapper .projects-img {
+    aspect-ratio: 3 / 2;
     object-fit: cover;
-} */
+}
 
 .portfolio-text:hover {
     text-decoration: underline #012622;
+}
+
+/* About me */
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.514);
+}
+
+.carousel-item img {
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+}
+
+#about-me i {
+    color: #A0B2A6;
+}
+
+#about-me a {
+    color: #00563B;
+}
+
+#about-me a:hover {
+    color: #00563B;
+    text-decoration: underline !important;
+}
+/* Contact */
+
+#contact a {
+    color: #012622;
+}
+
+#contact a:hover {
+    color: #A0B2A6;
+}
+
+/* Footer */
+
+#footer a {
+    color: #012622;
+}
+
+#footer a:hover {
+    color: #A0B2A6;
+    text-decoration: underline !important;
 }
