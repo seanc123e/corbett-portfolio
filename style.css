@@ -18,7 +18,8 @@ h1, h3, h5, p, label {
 body {
     background-color: #F7F7F7;
 }
- /*hero */
+ 
+/*hero */
 
 @media (max-width: 767px) {
     #profile-text {
